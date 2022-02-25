@@ -1,0 +1,15 @@
+[package]
+name          = "kathoey-py"
+version       = "1.0.10"
+description   = "Python wrapper for library for text feminization using open corpus linguistics data"
+authors       = [ "Miezhiko" ]
+license       = "LGPL-3.0-only"
+keywords      = [ "russian", "nlp" ]
+repository    = "https://github.com/Miezhiko/kathoey-py"
+readme        = "README.md"
+edition       = "2021"
+rust-version  = "1.56.0"
+
+[dependencies]
+pyo3    = "0.15"
+kathoey = "1.0.10"
