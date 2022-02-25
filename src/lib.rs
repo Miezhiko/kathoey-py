@@ -1,5 +1,4 @@
 use pyo3::prelude::*;
-use kathoey;
 
 #[pyclass(name = "Kathoey")]
 pub struct Kathoey {
